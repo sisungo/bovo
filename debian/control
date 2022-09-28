@@ -1,0 +1,38 @@
+Source: bovo
+Section: games
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               gettext,
+               libkf5coreaddons-dev (>= 5.83.0~),
+               libkf5crash-dev (>= 5.83.0~),
+               libkf5dbusaddons-dev (>= 5.83.0~),
+               libkf5doctools-dev (>= 5.83.0~),
+               libkf5kdegames-dev (>= 4.9.0~),
+               libkf5xmlgui-dev (>= 5.83.0~),
+               libqt5svg5-dev (>= 5.15.0~),
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev (>= 5.15.0~),
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: http://games.kde.org/
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/bovo
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/bovo.git
+
+Package: bovo
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
+Description: gomoku (five in line) board game
+ Bovo is a game where two players take turns placing markers on the board,
+ the winner being the first to complete a line of five markers.
+ .
+ This package is part of the KDE games module.

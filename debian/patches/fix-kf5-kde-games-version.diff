@@ -1,0 +1,11 @@
+--- bovo-21.08.0.orig/CMakeLists.txt
++++ bovo-21.08.0/CMakeLists.txt
+@@ -22,7 +22,7 @@ find_package(KF5 ${KF5_MIN_VERSION} REQU
+ 	    DocTools
+ 	    XmlGui
+ 	    )
+-find_package(KF5KDEGames 4.9.0 REQUIRED)
++find_package(KF5KDEGames 7.5.0 REQUIRED)
+ 
+ include(KDEInstallDirs)
+ include(KDECMakeSettings)

@@ -1,3 +1,9 @@
+bovo (4:21.08.0-1deepin1) unstable; urgency=medium
+
+  * Modify KF5KDEGames version requirement to build on newer systems
+
+ -- sisungo <sisungo@icloud.com>  Thu, 8 Oct 2025 12:21:33 +0800
+
 bovo (4:21.08.0-1) unstable; urgency=medium
 
   [ Norbert Preining ]
